@@ -26,7 +26,7 @@ ul {
 ul li {
   padding: 15px;
 }
-ul a {
+.menu a {
   text-decoration: none;
   color: black;
   border: black 1px solid;
@@ -36,12 +36,23 @@ ul a {
 
 a {
   box-shadow: inset 0 0 0 0 #979289;
-  color: #54b3d6;
   margin: 0 -0.25rem;
   padding: 0 0.25rem;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-a:hover {
-  box-shadow: inset 120px 0 0 0#979289;
+.menu a:hover {
+  box-shadow: inset 180px 0 0 0#979289;
+  color: white;
+}
+
+.news-list {
+  list-style: square;
+}
+
+.news-list a {
+  text-decoration: none;
+  color: black;
+}
+.news-list a:hover {
   color: white;
 }
